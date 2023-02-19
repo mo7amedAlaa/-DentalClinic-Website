@@ -1,5 +1,5 @@
  
-//*create Database `contact_database`;*/
+create Database `contact_database`;
  
  
 
