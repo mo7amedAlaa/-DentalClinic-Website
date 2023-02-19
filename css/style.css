@@ -70,7 +70,6 @@ section{
    padding:2rem;
    border-bottom: var(--border);
 }
-
 .header.active{
    background-color: var(--white);
    box-shadow: var(--box-shadow);
@@ -102,7 +101,7 @@ section{
    cursor: pointer;
    display: none;
 }
-
+/* --------end header--------------- */
 .home{
    background:url(../images/home-bg.jpg) no-repeat;
    background-size: cover;
@@ -148,7 +147,7 @@ section{
    color:var(--light-color);
    line-height: 2;
 }
-
+/* ********end about */
 .services{
    background-color: var(--light-bg);
 }
@@ -183,7 +182,7 @@ section{
    color:var(--light-color);
    line-height: 2;
 }
-
+/* ---------ser end-------- */
 .process .box-container{
    display: grid;
    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
@@ -214,7 +213,7 @@ section{
    color:var(--white);
    line-height: 2;
 }
-
+/* ------------process end------- */
 .reviews{
    background-color: var(--light-bg);
 }
@@ -269,7 +268,7 @@ section{
    color:var(--light-color);
    font-size: 1.5rem;
 }
-
+/* .reviews end  */
 .contact form{
    border-radius: .5rem;
    background-color: var(--light-bg);
@@ -277,7 +276,6 @@ section{
    margin:0 auto;
    max-width: 50rem;
 }
-
 .contact form .message{
    margin-bottom: 2rem;
    border-radius: .5rem;
@@ -304,7 +302,7 @@ section{
    font-size: 1.7rem;
    color:var(--black);
 }
-
+/* ----------contact end--- */
 .footer{
    background-color: var(--light-bg);
 }
@@ -353,13 +351,6 @@ section{
 .footer .credit span{
    color:var(--blue);
 }
-
-
-
-
-
-
-
 /* media queries  */
 
 @media (max-width:991px){
